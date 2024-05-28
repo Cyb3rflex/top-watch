@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ccd5e6;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100wh;
+}
+.container{
+    width: 850px;
+    height: 400px;
+    background-color: white;
+ color: black;
+ padding: 30px;
+ border-radius: 10px;
+}
+.tip{
+    display: flex;
+    justify-content: space-between;
+}
+.dd input{
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+}
+.we{
+    margin-top: 30px;
+}
+.we button{
+    padding: 10px;
+    background-color: #859eff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.dd input{
+    padding: 10px;
+}
+.container ul li{
+    list-style: none;
+    display: flex;
+    display: inline-block;
+   margin: 10px;
+   transition: .5s;
+}
+ul li:hover{
+    cursor: pointer;
+    background-color: #859eff;
+   padding: 10px;
+   border-radius: 3px;
+   color: white;
+}
+.cad{
+     margin-top: 25px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .cad p{ margin-top: 30px;
+     color:black;
+     
+ }
+ 
+ .cad em{
+     font-size: 12px;
+     font-weight: lighter;
+     font-family: arial;
+     font-style: normal;
+ }
+ .cad1:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #bdcbffd2;
+
+ }
+ .cad2:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #bdcbffd2;
+
+ }
+
+ .cad button{
+    color: rgb(121, 151, 228);
+    border-radius: 10px;
+    border: 1px solid gray;
+   background-color: transparent;
+   padding: 2px 4px;
+   margin: 2px;
+ }
+ .cad .cad1{ display: flex;
+     background-color: rgba(244, 250, 255, 0.171);
+     height: 20vh;
+     width: 25vw;
+     border-radius: 10px;
+     padding-top: 10px;
+     
+ }
+ 
+ .cad .cad2{display: flex;
+    
+     /* background-color: rgb(246, 251, 255); */
+     height: 25vh;
+     width: 20vw;
+     border-radius: 10px;
+     border: 1px rgb(239, 241, 213) solid;
+     padding-top: 10px;
+     box-shadow: #859eff 10px;
+ }
+ .cad .cad3{display: flex;
+     background-color: rgb(246, 251, 255);
+     height: 25vh;
+     width: 20vw;
+     border-radius: 10px;
+     padding-top: 10px;
+ }
+ 
+ 
+ .cad img{
+     border-radius: 100px;
+     width: 100px;
+     height: 100px;
+     padding: 10px 10px;
+ }
+ .image{
+    background: url(IMG_3723.JPG); 
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+    background-position: center;
+    background-size: cover;
+    
+ }
+ .card{gap: 10px;
+     justify-content: space-between;
+     display: flex;
+     
+ }
+ 
+ .card img{
+     border-radius: 100px;
+     width: 100px;
+     height: 100px;
+     padding: 10px 10px;  
+ }
+ .card p{
+     margin-top: 30px;
+ }
+ .card em{
+     font-size: small;
+     font-weight: lighter;
+     font-family: arial;
+     font-style: normal;
+ }
+ 
+ .card button{
+     color: rgb(121, 151, 228);
+     padding: 3px 3px;
+     border-radius: 10px;
+     border: 1px solid gray;
+     background-color: transparent;
+     outline: none;
+     margin: 2px;  
+ }
+ 
+ .card .card1{margin-top: 10px;
+     display: flex;
+     /* background-color: rgb(246, 251, 255); */
+     height: 25vh;
+     width: 20vw;
+     border-radius: 10px;
+     padding-bottom: 10px;
+     
+ }
+ .card .para{
+     margin-top: 20px;
+ }
+ 
+ 
