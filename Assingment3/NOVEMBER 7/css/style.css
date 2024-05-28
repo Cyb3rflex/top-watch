@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 100px;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    width: 100%;
+    padding: 20px 0;
+    height: 50px;
+    position: sticky;
+}
+
+.heading .logo{
+    position: relative;
+    height: 100%;
+}
+
+.heading .logo img{
+    position: relative;
+    height: 100%;
+}
+
+.sidebar{
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto 0;
+    gap: 30px;
+}
+
+.sidebar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: auto 0;
+    text-transform: capitalize;
+}
+
+.sidebar ul a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.sidebar button{
+    height: fit-content;
+    background-color: transparent;
+    border: blue 1px solid;
+    padding: 10px;
+    color: blue;
+    font-weight: bold;
+    border-radius: 10px;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.sidebar button:hover{
+    background: blue;
+    color: white;
+}
+
+.heroe{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/Screenshot\ 2023-10-24\ at\ 3.55.25\ PM.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: center; */
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.heroe h2{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+
+.heroe p{
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    width: 700px;
+    text-align: center;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 200px 0;
+    
+}
+.section1 p{
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 800px;
+}
+
+.section1 h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2.2rem;
+}
+
+.section1 button{
+    background-color: rgb(24, 24, 118);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.9;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.section1 button:hover{
+    opacity: 1;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.section2 .card{
+    width: 300px;
+    /* border: gray solid 2px; */
+    border-radius: 10px;
+    border: 1px gray solid;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+
+}
+
+.simple{
+    display: none;
+}
+
+.heading input[type="checkbox"]{
+    display: none;
+}
+
+.section2 .card img{
+    position: relative;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.section2 .card p{
+    padding: 10px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.section2 .card2{
+    box-shadow: 5px 5px 5px rgba(0, 255, 0, 0.4);
+}
+
+.section2 .card3{
+    box-shadow: 5px 5px 5px rgba(255, 0, 0, 0.4);
+}
+
+.con{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    body{
+        padding: 0 10px;
+    }
+
+    .heading {
+        padding: 10px 0;
+    }
+
+
+    .heading .sidebar {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        font-weight: bold;
+        margin: auto 0;
+        gap: 30px;
+        background: white;
+        width: 100%;
+        left: 0;
+        top: -500px;
+        transition: .5s;
+    }
+
+    .sidebar ul {
+        display: block;
+        list-style: none;
+        gap: 20px;
+        margin: auto 0;
+        text-transform: capitalize;
+    }
+
+    .sidebar ul li{
+        width: 100%;
+        padding: 20px;
+        font-size: 1rem;
+
+    }
+
+    .sidebar ul li:hover{
+        background: rgb(24, 24, 118);
+        color: white;
+    }
+
+    .sidebar button{
+        display: none;
+    }
+
+    .con{
+        display: block;
+    }
+
+    .simple{
+        display: flex;
+        padding: 10px;
+        background: rgb(24, 24, 118);
+        color: white;
+    }
+}
