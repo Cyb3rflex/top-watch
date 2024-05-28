@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 40px 40px;
+    background: #eee;
+}
+
+.before_slider p{
+    /* position: absolute; */
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.slider_holder h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/* styling footer */
+.footer_newsletter{
+    /* text-align: center; */
+    gap: 10px;
+}
+.footer_newsletter h5{
+    padding-bottom: 19px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.footer_newsletter p{
+   padding-bottom: 15px;
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inp_button{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inp_button .email{
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.inp_button button{
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 20px 20px;
+    text-align: center;
+    color: white;
+    background: rgb(53, 115, 248);
+}
+.footer{
+    display: flex;
+}
+.footer_images{
+    display: flex;
+}
+.footer2{
+    background-color: black;
+}
+.footer2 p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 20px 20px;
+   color: white;
+   text-align: center;
+}
