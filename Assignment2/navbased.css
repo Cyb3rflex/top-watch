@@ -1,0 +1,151 @@
+*{
+    /* top: 0;
+    left: 0; */
+    margin: 0;
+    padding: 0;
+}
+ body{
+    background: url(./img/IMG-20231023-WA0025.jpg);                  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-size: 2rem;
+} 
+
+.navbar p{
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: cursive;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    padding-top: 25px;
+}
+.nav img{
+  width: 10%;
+  padding-left: 90px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.list a{
+  justify-content: space-between;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    /* gap: 80px; */
+    /* transition: .3s; */
+}
+/* .list a :hover{
+  color: aqua;
+  transition: 3s;
+  opacity: 1.2s;
+
+} */
+.login{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.login a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.model{
+    text-align: center;
+    padding-top: 20px;
+}
+ 
+  /*---------------------------- FORM------------------------ */
+  .second {
+    width: 30%;
+    height: 90px;
+    align-items: center;
+    padding-left: 1599px;
+    padding-top: 190px;
+  }
+  
+  .second form {
+    width: 70%;
+    background-color: #77757577;
+    padding: 5px 60px;
+    border-radius: 15px;
+  }
+  
+  
+  form h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    border-radius: 90px;
+    padding: 20px;
+    font-size: 20px;
+    width: 90%;
+    margin-bottom: 10px;
+    border: none;
+  }
+  form button {
+    border-radius: 250px;
+    width: 95%;
+    padding: 20px;
+    background-color: #96d0ed;
+    border: none;
+    color: white;
+    font-size: 20px;
+    justify-content: space-evenly;
+  }
+  form h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+  }                 
+  /* -----------------------BUTTON----------------- */
+
+  .btn1 {
+    background: none;
+    border: none;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 150px
+    }
+    .btn{
+    padding-top: 25%;
+    text-align: center;
+    gap: 60px;
+    }
+    .btn1 a{
+        color: black;
+        text-decoration: none;
+    }
+  .btn2 {
+    background: none;
+    border: none;
+    padding: 20px 30px;
+    background-color: black;
+    border-radius: 150px
+    }
+    .btn{
+    /* padding-top: 25%; */
+    padding-bottom: 50px;
+    text-align: center;
+    /* gap: 60px; */
+    }
+    .btn2 a{
+        color: white;
+        text-decoration: none;
+    }
