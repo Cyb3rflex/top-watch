@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #000;
+}
+form{
+    margin: 8% 28%;
+    background: #eee;
+    width: 50%;
+    height: 60vh;
+    border-radius: 20px;
+    padding: 40px 40px;
+    box-shadow:
+     10px -15px maroon,
+     -10px 15px brown;
+}
+.first{
+   background: white;
+   padding: 10px 10px;
+   margin: 20px 20px;
+   width: 70%;
+   height: 50px;
+   outline: none;
+   border-radius: 5px;
+   font-size: 30px;
+}
+.second{
+   background: white;
+   padding: 10px 10px;
+   margin: 20px 20px;
+   width: 70%;
+   height: 50px;
+   outline: none;
+   border-radius: 5px;
+   font-size: 30px;
+}
+.third{
+   background: white;
+   padding: 10px 10px;
+   margin: 20px 20px;
+   width: 70%;
+   height: 50px;
+   outline: none;
+   border-radius: 5px;
+   font-size: 30px;
+}
+.out{
+    margin: 0 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #eee;
+    font-size: 20px;
+    transition: 2s;
+    border-color: aqua;
+}
+.out:hover{
+    background-color: maroon;
+    color: beige;
+    transition: 2s;
+    border-color: cyan;
+}
+.outt{
+    margin-left: 5px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #eee;
+    font-size: 20px;
+    transition: 2s;
+    border-color: aqua;
+}
+.outt:hover{
+    background-color: maroon;
+    color: beige;
+    transition: 2s;
+    border-color: cyan;
+}
+.outs{
+    margin-left: 5px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #eee;
+    font-size: 20px;
+    transition: 2s;
+    border-color: aqua;
+}
+.outs:hover{
+    background-color: maroon;
+    color: beige;
+    transition: 2s;
+    border-color: cyan;
+}
+.outp{
+    margin-left: 5px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #eee;
+    font-size: 20px;
+    transition: 2s;
+    border-color: aqua;
+}
+.outp:hover{
+    background-color: maroon;
+    color: beige;
+    transition: 2s;
+    border-color: cyan;
+}
