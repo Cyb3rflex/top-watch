@@ -1,0 +1,120 @@
+.man{
+    background-image: url(img/Borobudur\,\ Indonesia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3% 0;
+    text-align: center;
+    cursor: default;
+  }
+  /* .form{
+    width: 35%;
+    margin: auto;
+    padding-top: 2%;
+    background-color: rgb(177, 158, 158);
+    border-radius: 20px;
+  }
+  .form input, textarea{
+    width: 100%;
+    border: none;
+    padding: 12px 10px;
+    background-color: transparent;
+    margin: 8px 0px;
+    outline: none;
+  }
+  .form button{
+    display: block;
+  } */
+  
+  .second {
+    margin-top: 5px;
+    width: 50%;
+    border-radius: 30px;
+    margin-left: 270px;
+    margin-top: 30px;
+    color: black;
+    background-color: #85858577;
+  
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  
+  
+  
+  .form .input {
+    width: 70%;
+    /* background-color: #44ebf777; */
+    color: #16d0ff;
+    padding: 30px 40px;
+    border-radius: 30px;
+    transition: 3s;
+  }
+  input {
+    /* display: flex;
+    justify-content: center; */
+    background-color: #63252577;
+    color: white;
+    /* color: red; */
+    padding: 20px;
+    font-size: 20px;
+    width: 500px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    border-color: #16d0ff;
+  }
+  form button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 140px;
+    width: 300px;
+    padding: 20px;
+    background-color: #72c2eb;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  form button:hover{
+    background-color: rgb(61, 105, 248);
+  }
+  
+  .links{
+    margin-top: 40px;
+  }
+  .links i{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #86051d;
+    color: white;
+    /* margin: 2% 0% 0% 1%; */
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .links p{
+    padding-top: 20px;
+    color: #16d0ff;
+  }
+  .links i:hover{
+    background-color: blueviolet;
+  }
+  
+  .portfolio button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 450px;
+    width: 300px;
+    padding: 20px;
+    background-color: #96d0ed;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+  }
+  .portfolio button:hover{
+    background-color: rgb(1, 18, 117);
+  }
+  

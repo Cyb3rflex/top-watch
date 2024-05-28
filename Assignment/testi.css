@@ -1,0 +1,88 @@
+.maintestimonial{
+    cursor: default;
+    width: 100%;
+    padding: 4% 0;
+    background-color: #eb4261;
+    }
+
+    .para{
+      display: flex;
+      justify-items: center;
+      text-align: center;
+      margin-left: 550px;
+    }
+    .heading{
+      margin-left: 520px;
+    }
+    .box{
+      margin-top: 30px;
+      margin-left: 370px;
+    }
+    
+    .client-box{
+      background-color: blueviolet;
+      width: 40%;
+      color: white;
+      padding: 2% 0;
+      margin-left: 80px;
+    }
+    
+    .client-box img{
+      width: 10%;
+      border-radius: 50%;
+      margin-left: 200px;
+    }
+    .client-box h1{
+      padding: 3% 0;
+      padding-left: 15px;
+    }
+    .client-box h5{
+      padding: 3% 0;
+      padding-left: 15px;
+    }
+    
+    .btn{
+      margin-left: 90px;
+      margin-top: 10px;
+    }
+    .btn :hover{
+      background-color: #eb4261;
+    }
+    .prevbtn{
+      cursor: pointer;
+      border-radius: 0;
+      margin-top: 2% 1%;
+      padding: 10px;
+      background-color: aqua;
+      margin-left: 500px;
+    }
+    .nextbtn{
+      cursor: pointer;
+      border-radius: 0;
+      margin-top: 2% 1%;
+      padding: 10px;
+      background-color: aqua;
+      margin-right: 10px;
+    }
+
+    .port{
+      margin-left: 390px;
+    }
+    .port button {
+      /* display: flex;
+      justify-content: center;
+      text-align: center; */
+      margin-top: 12px;
+      margin-left: 80px;
+      width: 300px;
+      padding: 20px;
+      background-color: #96d0ed;
+      border: none;
+      border-radius: 40px;
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .port button:hover{
+      background-color: rgb(1, 18, 117);
+    }
