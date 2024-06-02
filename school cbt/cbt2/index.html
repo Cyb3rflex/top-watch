@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBT Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- //LOGIN SECTION// -->
+  <div id="login-container">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button id="login-btn" class="btn">Login</button>
+  </div>
+  <!-- //LOGIN SECTION END// -->
+
+  <div class="container hide" id="main-container">
+    <h1>Computer Based Test</h1>
+    <div id="timer" class="hide">Time:
+      <span id="time-remaining">60 seconds</span>
+    </div>
+    <div id="question-container" class="hide">
+      <div id="question">Question text</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+    </div>
+    <!-- //END OF QUESTION SECTION -->
+    <!-- //CONTROLS// -->
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn hide">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+  </div>
+  <!-- //END OF CONTROLS// -->
+
+  <!-- //LINKING JS// -->
+  <script src="script.js"></script>
+</body>
+</html>
